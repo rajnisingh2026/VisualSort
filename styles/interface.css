@@ -1,5 +1,3 @@
-/* Buttons */
-
 input[type="button"] {
     border: none;
     background: #555;
@@ -31,7 +29,6 @@ input[disabled]:hover {
     opacity: 1;
 }
 
-/* Algo Selection */
 
 input[type="range"] {
     padding: 0px;
@@ -55,7 +52,6 @@ select[disabled] {
     cursor: not-allowed;
 }
 
-/* Sliddrs */
 
 .slider {
     display: block;
@@ -80,7 +76,7 @@ select[disabled] {
 }
 
 .slider input:hover {
-    opacity: 1; /* Fully shown on mouse-over */
+    opacity: 1;
 }
 
 .slider input[disabled]:hover {
@@ -116,8 +112,6 @@ span.count {
     font-weight: bold;
     padding: 2px 0px 0px 5px;
 }
-
-/* Others */
 
 label {
     display: inline-block;
